@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / pickled Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+wheelhouse/
+*.tar.gz
+*.whl
+
+# Installer logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+.tox/
+htmlcov/
+pytest.xml
+coverage/
+
+# Virtual environment
+.venv/
+virtualenv/
+venv/
+ENV/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.swp
+*~.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# AdGuard filter list specific files (if any)
+# Add any temporary or generated filter list files here if they are not meant to be committed.
+# Example:
+# *_temp.txt
+# generated_lists/
+
+# Python packaging - uv, pip, etc.
+# If uv creates a cache directory, it should be ignored.
+# Refer to uv documentation for specific cache locations if needed.
+.uv/
